@@ -9,6 +9,8 @@ app = Blueprint('users', __name__)
 # Create @ 2020.Jun.30 8:10 AM
 # Useage : users conroller 
 
+# update comment
+
 
 # http://127.0.0.1:5009/users/getall
 @app.route('/getall', methods=['GET','POST'])
